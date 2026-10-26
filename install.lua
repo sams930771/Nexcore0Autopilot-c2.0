@@ -3,7 +3,7 @@
 local args={...};local role=args[1] or "ship";local branch=args[2] or "main";local folder=args[3] or ""
 -- Preserve the older `install main` invocation as a ship install.
 if role~="ship" and role~="pocket" then folder=args[2] or "";branch=role;role="ship" end
-local repo="sams930771/NEXCORE-Flight-Management-System-v2.0"
+local repo="sams930771/Nexcore0Autopilot-c2.0"
 local destination="/nexcore_fms_ap";local staging=destination..".download"
 local files=role=="pocket" and {"pocket.lua","nexcore/ap/math.lua","nexcore/ap/protocol.lua"} or {
  "ship.lua","setup_ship.lua","autopilot_test.lua","nexcore/ap/math.lua",

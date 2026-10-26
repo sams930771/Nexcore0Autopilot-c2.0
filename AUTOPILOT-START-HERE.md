@@ -30,7 +30,7 @@ Do not upload just the ZIP: the installer fetches individual raw files.
 On the ship computer, one command per line:
 
 ```text
-wget https://raw.githubusercontent.com/sams930771/NEXCORE-Flight-Management-System-v2.0/main/install.lua install_ap.lua
+wget https://raw.githubusercontent.com/sams930771/Nexcore0Autopilot-c2.0/main/install.lua install_ap.lua
 install_ap ship
 cd /nexcore_fms_ap
 autopilot_test
@@ -39,7 +39,7 @@ autopilot_test
 On the wireless pocket computer:
 
 ```text
-wget https://raw.githubusercontent.com/sams930771/NEXCORE-Flight-Management-System-v2.0/main/install.lua install_ap.lua
+wget https://raw.githubusercontent.com/sams930771/Nexcore0Autopilot-c2.0/main/install.lua install_ap.lua
 install_ap pocket
 cd /nexcore_fms_ap
 pocket
